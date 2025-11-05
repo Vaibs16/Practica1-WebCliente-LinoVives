@@ -11,8 +11,7 @@ export default function App() {
     console.log("Buscando:", query);
   }
   return (
-
-    <div>
+    <div className='app-container'>
       <h1>Buscador de series</h1>
 
       <div className="search-container">

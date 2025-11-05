@@ -13,3 +13,20 @@
   align-items: center;      
   margin: 2rem 0;
 }
+
+@media (max-width: 600px) {
+  .app-container {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem; 
+  }
+}
+
+@media (min-width: 1200px) {
+  .app-container {
+    max-width: 900px;
+  }
+}

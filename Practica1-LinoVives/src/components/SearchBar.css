@@ -29,3 +29,15 @@
 .search-button:hover {
   background-color: #005fd1;
 }
+
+@media (max-width: 600px) {
+  .search-form {
+    flex-direction: column;  
+    align-items: stretch;    
+    max-width: 90%;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}
