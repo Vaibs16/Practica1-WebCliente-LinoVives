@@ -1,0 +1,35 @@
+.series-list {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 50%;               
+  box-sizing: border-box;    
+}
+
+.series-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+}
+
+.series-item:hover {
+  transform: scale(1.05);
+}
+
+
+
+.series-item h3 {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.8rem 0 1rem 0;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

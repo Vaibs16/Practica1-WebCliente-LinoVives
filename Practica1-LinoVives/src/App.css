@@ -1,17 +1,33 @@
 
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
   font-family: system-ui, sans-serif;
+  background-color: #121212;
+  color: white;
 }
+
 
 .search-container {
   display: flex;
   justify-content: center;   
   align-items: center;      
   margin: 2rem 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  width: 100%;              
+  max-width: none;  
+}        
+.search-container {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
@@ -22,11 +38,5 @@
 
   h1 {
     font-size: 1.5rem; 
-  }
-}
-
-@media (min-width: 1200px) {
-  .app-container {
-    max-width: 900px;
   }
 }

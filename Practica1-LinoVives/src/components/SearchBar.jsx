@@ -9,7 +9,8 @@ export default function SearchBar( {onSearch} ) {
         setInputValue(event.target.value)
     };
 
-    const handleSummit = () => {
+    const handleSummit = (event) => {
+        event.preventDefault();
         onSearch(inputValue);
     };
 
