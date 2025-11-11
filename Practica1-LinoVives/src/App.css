@@ -4,7 +4,6 @@
   margin: 0 auto;
   padding: 2rem;
   font-family: system-ui, sans-serif;
-  background-color: #121212;
   color: white;
 }
 
@@ -19,10 +18,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
   padding: 1rem;
   width: 100%;              
-  max-width: none;  
+  max-width: none; 
+   
 }        
 .search-container {
   width: 100%;
