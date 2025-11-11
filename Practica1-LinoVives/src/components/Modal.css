@@ -17,6 +17,7 @@
   padding: 2rem;
   max-width: 600px;
   width: 90%; 
+  position: relative; /* Hace que el boton X este dentro del modal, gracias a position: absolute */
 }
 
 .modal-close {
