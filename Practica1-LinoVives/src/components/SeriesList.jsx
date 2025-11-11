@@ -1,4 +1,7 @@
 import "./SeriesList.css";
+import FavoriteButton from "./FavoriteButton";
+
+
 export default function SeriesList({ series, onSelect }) {
   if (!series || series.length === 0) {
     return <p>No hay resultados.</p>;
@@ -13,7 +16,10 @@ export default function SeriesList({ series, onSelect }) {
           ) : (
             <div className="no-image">Sin imagen</div>
           )}
-          <h3>{item.show.name}</h3>
+          <div className="series-info">
+            <h3>{item.show.name}</h3>
+            <FavoriteButton />
+          </div>
         </div>
       ))}
     </div>

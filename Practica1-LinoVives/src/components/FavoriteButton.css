@@ -1,0 +1,12 @@
+.favorite-btn {
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 0;
+  color: gray;
+  transition: transform 0.3s;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.2);
+  color: red;
+}
