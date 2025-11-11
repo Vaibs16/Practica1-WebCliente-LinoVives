@@ -6,3 +6,8 @@ export function searchSeries(query) {
       return response.json();
     });
 }
+
+export function seriesDetails(id) {
+  const url = `https://api.tvmaze.com/shows/${id}`;
+  return fetch(url).then((response) => response.json());
+}
