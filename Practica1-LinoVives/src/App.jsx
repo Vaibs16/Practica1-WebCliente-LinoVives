@@ -21,7 +21,7 @@ export default function App() {
   const handleSearch = (query) => {
     setSearch(query);
     console.log("Buscando:", query);
-  }
+  };
 
   const handleSelect = (id) => {
     console.log("Click en:", id);
@@ -38,6 +38,7 @@ export default function App() {
     }
     return summary.replace(/<[^>]+>/g, "");
   };
+
 
 
   return (
